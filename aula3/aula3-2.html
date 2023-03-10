@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulários</title>
+  </head>
+  <body>
+    <form>
+      <table border="">
+        <tr>
+          <td align="right">
+            <label>User:</label>
+            <input type="text" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Password:</label>
+            <input type="password" />
+          </td>
+        </tr>
+        <tr>
+          <td align="right">
+            <label>Age:</label>
+            <input type="number" />
+          </td>
+        </tr>
+        <tr>
+          <td align="center">
+            <button>Enviar</button>
+            <button>Cancelar</button>
+          </td>
+        </tr>
+      </table>
+      <br />
+      <h4>Quais animais você tem?</h4>
+      <input type="radio" name="animal" value="cachorro" id="dog" />
+      <label for="dog">Cachorro</label>
+      <br />
+      <input type="radio" name="animal" value="gato" id="cat" />
+      <label for="cat">Gato</label>
+      <br />
+      <input type="radio" name="animal" value="passaro" id="bird" />
+      <label for="bird">Pássaro</label>
+      <br />
+      <h4>O que tem na sua casa?</h4>
+      <input type="checkbox" name="item1" value="tv" id="item1" />
+      <label for="item1">Televisão</label>
+      <br />
+      <input type="checkbox" name="item2" value="pc" id="item2" />
+      <label for="item2">Computador</label>
+      <br />
+      <input type="checkbox" name="item3" value="geladeria" id="item3" />
+      <label for="item3">Computador</label>
+      <br />
+      <h4>Escolha uma cor</h4>
+      <select name="cores">
+        <option disabled selected value="">Selecione uma cor</option>
+        <option value="Azul">Azul</option>
+        <option value="Vermelho">Vermelho</option>
+        <option value="Amarelo">Amarelo</option>
+      </select>
+      <br />
+      <h4>Digite uma mensagem!</h4>
+      <textarea name="mensagem" rows="5" cols="35" placeholder="Digite..."></textarea>
+      <br /><br /><br />
+      <input type="submit" value="Enviar Formulário" />
+      <!-- <br /> foi usado só para ficar visivelmente bonito -->
+    </form>
+  </body>
+</html>
