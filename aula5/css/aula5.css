@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  border: 0.05rem solid #000;
+  width: 80%;
+  height: 50rem;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.container div {
+  width: 6.25rem;
+  height: 6.25rem;
+  border: 0.05rem solid #000;
+  margin: 0.625rem 1.25rem;
+  position: absolute;
+  border-radius: 1.25rem;
+}
+.box1 {
+  background: #ff0000;
+  top: 6.625rem;
+}
+.box2 {
+  background: #37ff00;
+  top: 13.75rem;
+}
+.box3 {
+  background: #0048ff;
+  top: 20.625rem;
+}
+.box4 {
+  background: #ff00d9;
+  top: 27.5rem;
+  right: -3.125rem;
+}

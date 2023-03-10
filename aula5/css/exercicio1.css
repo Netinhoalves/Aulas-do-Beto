@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 10px;
+}
+.container {
+  border: 0.1rem solid #000;
+  width: 50rem;
+  height: 50rem;
+  margin: 0 auto;
+  position: relative;
+}
+.container > div {
+  border: 0.1rem solid #000;
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+}
+.ball {
+  border: 0.1rem solid #000;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+  position: absolute;
+}
+.square {
+  border: 0.1rem solid #000;
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+}
+.box1 {
+  top: 2rem;
+  left: 2rem;
+}
+.container .box1 .box1-1 {
+  top: 1rem;
+  left: 1rem;
+}
+.container .box1 .box1-2 {
+  top: 1rem;
+  right: 1rem;
+}
+.container .box1 .box1-3 {
+  bottom: 1rem;
+  left: 1rem;
+}
+.container .box1 .box1-4 {
+  right: 1rem;
+  bottom: 1rem;
+}
+.box2 {
+  top: 2rem;
+  right: 2rem;
+}
+.container .box2 .box2-1 {
+  top: 1rem;
+  left: 1rem;
+}
+.container .box2 .box2-2 {
+  top: 1rem;
+  margin: 8rem;
+}
+.container .box2 .box2-3 {
+  right: 1rem;
+  bottom: 1rem;
+}
+.box3 {
+  left: 2rem;
+  bottom: 2rem;
+}
+.container .box3 .box3-1 {
+  top: 1rem;
+  left: 1rem;
+}
+.container .box3 .box3-2 {
+  margin: 1rem;
+  left: 8rem;
+}
+.container .box3 .box3-3 {
+  top: 1rem;
+  right: 1rem;
+}
+.container .box3 .box3-4 {
+  bottom: 1rem;
+  left: 1rem;
+}
+.container .box3 .box3-5 {
+  left: 8rem;
+  bottom: 1rem;
+}
+.container .box3 .box3-6 {
+  right: 1rem;
+  bottom: 1rem;
+}
+.box4 {
+  bottom: 2rem;
+  right: 2rem;
+}
+.container .box4 .box4-1 {
+  top: 1rem;
+  left: 1rem;
+}
+.container .box4 .box4-2 {
+  top: 9rem;
+  left: 9rem;
+}
+.container .box4 .box4-3 {
+  right: 1rem;
+  bottom: 1rem;
+}
+.container .box4 .box4-4 {
+  top: 9rem;
+  left: 1rem;
+}
