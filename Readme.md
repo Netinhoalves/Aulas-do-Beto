@@ -8,9 +8,11 @@ Horário de Permanência (atendimento ao estudante):
 - Terça-Feira: 19:35 às 20:20
 
 Horário de Aula:
+
 Terça-Feira
 - 20:20 às 21:05
 - 21:20 às 22:05
+
 Quinta-Feira
 - 21:20 às 22:05
 - 22:05 às 22:50
