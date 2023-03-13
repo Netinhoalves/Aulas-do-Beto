@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  color: #0000ff;
+  background: #e1e1e1;
+}
+.name {
+  background: #838383;
+}
+.value {
+  background: #ffe100;
+}
+.final {
+  background: #9d9d9d;
+}
+.media {
+  color: #0000ff;
+  background: #e7e2e2;
+}
